@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %title Ciber Developer Update
+    = haml :"templates/header_imports"
+    -green = '#821CB4'
+    -purple = '#B3DB11'
+  %body
+    = haml :"templates/nav"
+    .container
+      .row
+        = haml :"templates/stats_nav"
+      .row
+        - get_suggestions.each do | key, suggestion |
+          =haml :"templates/suggestion", :locals => {:key => key, :value => suggestion, :delete => true}

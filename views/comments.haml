@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title Ciber Developer Update
+    = haml :"templates/header_imports"
+  %body
+    = haml :"templates/nav"
+    .container
+      .row
+        = haml :"templates/stats_nav"
+      .row
+        - get_comments.each do | key, comment |
+          =haml :"templates/comment", :locals => {:key => key, :comment => comment}

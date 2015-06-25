@@ -1,0 +1,20 @@
+%div.suggestion{:style => "background: #eee;"}
+  - if delete then
+    %a{:href => "/stats/suggestions/delete?id=#{key}", :class => "pull-right"}
+      Delete
+  %strong
+    #{value["title"]}
+  %br
+  = value["description"].gsub(/\r\n/, "<br>")
+  %br
+  %br
+  %strong Format:
+  #{value["format"]}
+  %br
+  %strong Track:
+  #{value["track"]}
+  %br
+  %strong Responsible:
+  #{value["responsible"]}
+  %br
+.padding

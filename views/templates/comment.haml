@@ -1,0 +1,11 @@
+%b Foredrag: #{get_spot_name(key)}
+%br
+- comment.each do | key, value |
+  %div.comment{:style => "background: #eee;"}
+    %a{:href => "/stats/comments/delete?id=#{key}&parent=#{value["id"]}", :class => "pull-right"}
+      Slett
+    Navn: #{value["name"]}
+    %br
+    Kommentar: #{value["message"]}
+    %br
+  .padding

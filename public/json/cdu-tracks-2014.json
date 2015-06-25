@@ -1,0 +1,155 @@
+{
+  "Felles": {
+    "program": {
+      "09:00": {
+        "title": "Velkommen",
+        "speaker": "Thomas Almnes",
+        "description": "",
+        "duration": "10"
+      },
+      "09:10": {
+        "title": "Fremtidens Web",
+        "speaker": "Marius Gundersen",
+        "description": "",
+        "duration": "40"
+      },
+      "09:50": {
+        "title": "Break",
+        "speaker": "",
+        "description": "",
+        "duration": "10"
+      },
+      "12:00": {
+        "title": "Lunch",
+        "speaker": "",
+        "description": "",
+        "duration": "60"
+      },
+      "18:00": {
+        "title": "Ølbrygging i java - eller hvordan holde seg oppdatert når man jobber med utrangerte teknologier",
+        "speaker": "Daniel Holmen",
+        "description": "Noen ganger blir man sittende og jobbe med gamle, utrangerte, eller enkelt og greit kjedelige teknologier. Hvordan skal man klare å holde motivasjonen oppe for faglig oppdatering? Hvorfor ikke kombinere en hobby eller fritidsaktivitet med spennende teknologier? Du kan for eksempel lage deg et automatisert bryggeri med Java, Raspberry Pi, Arduino, og en haug av sensorer og andre dingser...",
+        "duration": "40"
+      }
+    },
+    "room": ""
+  },
+  "1": {
+    "program": {
+      "10:00": {
+        "title": "A quick and dirty introduction to the programming language Swift",
+        "speaker": "Sigmund Rolfsjord, Aleks Gisvold",
+        "description": "With iOS8, Apple launched the programming language Swift. A programming language promising: \"Writing code is interactive and fun, the syntax is concise yet expressive, and apps run lightning-fast.\" Is Swift all fun and games? Stop by and we'll show you!",
+        "duration": "40"
+      },
+      "10:45": {
+        "title": "Participatory design - design med han derre “ikke-designeren”",
+        "speaker": "Lill Reyes",
+        "description": "Det er gøy å se hvor stort fokus Ciber har fått på brukersentrert design og hvor høyt vi har begynt å sette brukerne og deres behov i sentrum når vi skal designe gode brukeropplevelser. Vi har begynt å designe for brukerne. Men kan vi også designe MED brukerne? Det blir en introduksjon til Participatory design, de tre hovedområdene i designtradisjonen, og hvordan design med en bruker på NAF førte til en litt annen designopplevelse.",
+        "duration": "10"
+      },
+      "11:00": {
+        "title": "Impact Mapping kan hjelpe deg ut av kravjungelen!",
+        "speaker": "Thomas Almnes",
+        "description": "Impact Mapping er en teknikk som lar deg knytte krav med målsetting. Ofte dukker det opp ønsker og krav om funksjonalitet som ikke kan identifiseres med prosjektets målsetting. Det er ikke alltid enkelt å gjøre riktige prioriteringer dersom man ikke kan plassere kravene i den rette konteksten. Impact mapping kan hjelpe deg ut av jungelen! Bonusen er at teknikken bidrar i å skrive bedre brukerhistorier :) ",
+        "duration": "10"
+      },
+      "11:20": {
+        "title": "SASS/Compas",
+        "speaker": "Njaal Gjerde, Bjørn Vegard Thoresen og Alexander Perry",
+        "description": "Har du knotet en del med CSS, og frustrert deg over dets mangler av gjenbrukbarhet og hierarki? Savner du metoder, variabler og annet snacks i stylingen? Da burde du ta turen innom dette foredraget, for å se at hverdagen din kan bli utrolig mye enklere! Foredraget tar for seg noen av de mest brukte funksjonene i Sass og Compass for å illustrere hva slags muligheter rammeverket gir oss. Vi kjører et forkortet versjon av et kurs vi skal holde dagen før CDU for studentene ved UiO. Dermed er dette et intro-foredrag, altså ikke for deg som kan mye Sass og Compass fra før av.",
+        "duration": "40"
+      },
+      "13:00": {
+        "title": "Ekstrem forandring! Fra fem til (nesten) femti",
+        "speaker": "Thomas Holen",
+        "description": "I januar i år var det totalt fem personer som jobbet med Komplett's netthandelssystem Chrome. I løpet av året skal vi være 32 utviklere som sitter spredt rundt i hele Europa. Hvordan er dette mulig med et utdatert system som har levd i 10 år uten store endringer? Hvordan har vi møtt denne utfordringen med stor suksess? I dette foredrag tar vi for oss alt fra arkitektur i koden til hvordan vi jobber på tvers av landegrensene. ",
+        "duration": "40"
+      },
+      "13:45": {
+        "title": "Back-end user experience - is easily maintainable code good user experience?",
+        "speaker": "Petter Christie",
+        "description": "When working with front-end code, you will be dependent on a back-end system most of the time. If the front-end specifications leads to complicated code in the back-end it might be ok in the development phase of the code, but how will this be when the code is in production and bugs or changes has to be fixed yesterday. Is perfect front-end user experience always best? If this leads to problems with changes and maintenance of the back-end code, wont that also affect the user experience in the long run? I will talk about this in general and my experiences with this from Tele2. I hope do end the talk with a short discussion and invite other people to share their experience.",
+        "duration": "40"
+      },
+      "14:30": {
+        "title": "Enter the Devigners: a report from the trenches of Helsenorge.no",
+        "speaker": "Sarah Brodwall",
+        "description": "Whether designers should code has been a major topic of discussion of late in the UX world. The Norwegian Directorate of Health (Helsedirektoratet) chose to answer this question with a resounding \"yes\" when they decided upon the development process they'd use for the modernization of their public health portal, Helsenorge.no. A team of \"devigners\"--designers who code HTML, CSS, and JavaScript--acted as a bridge between the design team and the developers. What were the reasons for this decision, and how did things work out in practice?",
+        "duration": "40"
+      },
+      "15:20": {
+        "title": "User story mapping",
+        "speaker": "Karine Småstuen",
+        "description": "",
+        "duration": "10"
+      },
+      "15:35": {
+        "title": "Hvordan strikke en applikasjon",
+        "speaker": "Christian Aamodt",
+        "description": "",
+        "duration": "40"
+      }
+    },
+    "room": ""
+  },
+  "2": {
+    "program": {
+      "10:00": {
+        "title": "Streams in Java 8",
+        "speaker": "Joakim Bjerkheim",
+        "description": "The streams API that is introduced in Java 8 SE is one of the big new features of the release. As well as allowing the developer to write more readable and expressive code, it also encourages a functional way of thinking. Throughout the talk we will do code examples to get this mindset. ",
+        "duration": "40"
+      },
+      "10:45": {
+        "title": "C# 6.0 - News and features",
+        "speaker": "Jørn Ole Skaaraas",
+        "description": "Microsoft har tatt et steg videre med C# 6.0. Hva er nytt? Hvilke features bør du kjenne til? Hva tenker Microsoft om fremtiden med C# og Roslyn?",
+        "duration": "10"
+      },
+      "11:00": {
+        "title": "Shadows, customization and imports",
+        "speaker": "Morten Kjelling",
+        "description": "This is the tag. Does this look like xml? Think again mrs... Le Web components is coming, what can we do with it? Why should we care? And what is this web component stuff anyway?",
+        "duration": "10"
+      },
+      "11:20": {
+        "title": "Mikrotjenestearkitektur",
+        "speaker": "Peter Breunig",
+        "description": "Hvis man går noen år tilbake i tid så var hardware-ressurser dyrt. Resultatet av dette ble monolittapplikasjoner med tett kobling mot en infrastruktur bygget opp av monolitter. I dag er ressurser billig. Som følge av dette kan man legge opp til en helt annen arkitektur i applikasjonene vi lager og infrastrukturen de kjører på. Vi tar en titt på Microtjenester, hva det er og ting man må tenke på når man lager microtjenester. Blir det tid så kanskje vi koder litt.",
+        "duration": "40"
+      },
+      "13:00": {
+        "title": "CDU webapp",
+        "speaker": "Kyrre Havik Eriksen",
+        "description": "I dette foredraget vil dere bli kjent med det dynamiske språket Ruby og det vakre markup-språket Haml. Jeg vil vise dere hvordan jeg enkelt fikk satt opp nettsiden ved bruk av Sinatra, bootstrap, CloudAnt, og Heroku.",
+        "duration": "40"
+      },
+      "13:45": {
+        "title": "Sitecore ",
+        "speaker": "Bjørn-Vegard Thoresen, Thaya Nagalingam",
+        "description": "Intro til sitecore(CMS), og uCommerce(E-handel modul).",
+        "duration": "40"
+      },
+      "14:30": {
+        "title": "Using Xamarin to develop for multiple platforms",
+        "speaker": "Andreas Brustad",
+        "description": "Xamarin allows us to create apps for iOS and Android using C# code. This talk will introduce Xamarin and show how to create an apps that can run on multiple platforms.",
+        "duration": "40"
+      },
+      "15:20": {
+        "title": "Gulp!",
+        "speaker": "Marius Gundersen",
+        "description": "Gulp er et lite og enkelt byggeverktøy for frontend. Gulp scripts kjører på nodeJS og er satt sammen av en eller flere små moduler. Det er måten disse modulene blir satt sammen på som skiller Gulp fra andre byggeverktøy. Vi tar en kjapp titt på Gulp og hvordan streaming og piping av filer fungerer i byggeprosessen, både på byggserveren og på utviklermaskinen.",
+        "duration": "10"
+      },
+      "15:35": {
+        "title": "ASP.NET vNext - only for new projects?",
+        "speaker": "Per-Kristian Helland",
+        "description": "The new and shiny ASP.NET called vNext will soon be released. MVC and Web API have been merged and we can program without .csproj files – shut up and take my money! No need for money though, since it is all open source and even runs on Macs. It all sounds too good to be true, so the question is: will it be feasible to migrate existing projects to vNext? I will speak about my attempt to migrate our Flytoget solution to ASP.NET vNext and explain some of the new features we look forward to be using.",
+        "duration": "40"
+      }
+    },
+    "room": ""
+  }
+}

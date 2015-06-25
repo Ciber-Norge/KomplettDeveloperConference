@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %title Ciber Developer Update
+    -green = '#821CB4'
+    -purple = '#B3DB11'
+    = haml :"templates/header_imports"
+  %body
+    = haml :"templates/nav"
+    .container
+      Thank you! Your suggestion has been recieved.
+      %br
+      %a{:href => "/cfp/suggestions", :class => "no-underline"}
+        %div{:class => "col-lg-12 big-btn", :style => "background: #{green}; color: #{purple};"}
+          See suggestions

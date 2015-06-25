@@ -1,0 +1,31 @@
+!!!
+%html
+  %head
+    %title Ciber Developer Update
+    = haml :"templates/header_imports"
+    :javascript
+      $(document).ready(function() {
+        #{get_file("public/js/rateit_module.js")}
+      });
+  %body
+    = haml :"templates/nav"
+    .container
+      - if params.has_key?("starts")
+        Startet #{params["starts"]}
+        %br
+      - params.each do | key, value |
+        - if key != "starts"
+          %h3
+            Track #{key}
+          - key = value["time"]
+          = haml :"templates/track_spot", :locals => {:key => key, :value => value}
+
+:javascript
+  $(document).ready(function() {
+    $(".toggleDescription").click(function() {
+      $(this).nextAll('.slideDescription').first().slideToggle();
+    });
+    $(".toggleComment").click(function() {
+      $(this).nextAll('.slideComment').first().slideToggle();
+    });
+  });

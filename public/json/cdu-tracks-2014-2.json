@@ -1,0 +1,103 @@
+{
+  "Felles": {
+    "program": {
+      "09:00": {
+        "title": "Practical info",
+        "speaker": "Christian Lundestad",
+        "description": "",
+        "duration": "5",
+        "id": "c7de3d82"
+      },
+      "09:05": {
+        "title": "Welcome",
+        "speaker": "Marianne Selle",
+        "description": "",
+        "duration": "15",
+        "id": "38675cb2"
+      },
+      "09:20": {
+        "title": "Keynotes Mobility, .NET, eCommerce",
+        "speaker": "Christian Aamodt, Andreas Brustad, Jørn Ole Skaaraas",
+        "description": "",
+        "duration": "40",
+        "id": "36cedab2"
+      },
+      "10:00": {
+        "title": "How to rescue/recover a project - and how developers can support that",
+        "speaker": "Thommy Mewes",
+        "description": "",
+        "duration": "30",
+        "id": "ff3623e3"
+      },
+      "10:30": {
+        "title": "Back to the future",
+        "speaker": "Lill Reyes",
+        "description": "",
+        "duration": "15",
+        "id": "9ec09e67"
+      },
+      "10:45": {
+        "title": "Break",
+        "speaker": "",
+        "description": "",
+        "duration": "15",
+        "id": "8ba16499"
+      },
+      "18:00": {
+        "title": "Dinner at Grilleriet",
+        "speaker": "",
+        "description": "",
+        "duration": "∞",
+        "id": "e88818ab"
+      }
+    },
+    "room": ""
+  },
+  "1": {
+    "program": {
+      "11:00": {
+        "title": "AngularJS",
+        "speaker": "Alexander Perry & Svein-Helge Grinden",
+        "description": "",
+        "duration": "45",
+        "language": "nb_NO",
+        "id": "9d3a444a"
+      },
+      "11:45": {
+        "title": "Arduino",
+        "speaker": "Kyrre Havik Eriksen",
+        "description": "",
+        "duration": "15",
+        "id": "8e64868a"
+      },
+      "13:00": {
+        "title": "Flytoget - smidig utvikling i 210 km/t",
+        "speaker": "Lise Bulling & Karine Småstuen",
+        "description": "",
+        "duration": "45",
+        "language": "nb_NO",
+        "id": "9f0b60dd"
+      },
+      "13:45": {
+        "title": "Hybris",
+        "speaker": "Michael Johansen",
+        "description": "",
+        "duration": "15",
+        "id": "76e9f210"
+      }
+    },
+    "room": "Sal D"
+  },
+  "2": {
+    "program": {
+      "": {
+        "title": "",
+        "speaker": "",
+        "description": "",
+        "duration": "",
+        "id": "dbc64120"
+      }
+    },
+    "room": ""
+  }
+}

@@ -1,0 +1,30 @@
+- color = '#eee'
+- if defined? is_now and is_now
+  - color = '#B3DB11'
+    
+%div.track-spot{:style => "background: #{color};"}
+  .toggleDescription
+    %span.label.label-info.pull-right
+      =key
+    %h4{:style => "margin-bottom: 0px;"}
+      =value["title"]
+    %span.speaker
+      #{value["speaker"]}
+    - if value.has_key?("room") then
+      %br
+      = "Rom: #{value["room"]}"
+  .slideDescription
+    = value["description"]
+
+  #rating
+    Rate (#{get_number_of_ratings_for(value["id"])}):
+    .rateit{"data-spotid" => value["id"], "data-rateit-resetable" => "false", "data-rateit-step" => "1", "data-rateit-value" => get_rating_for!(value["id"])}
+  .toggleComment
+    Kommenter:
+  .slideComment
+    %form.form-inline{:action => "/track/#{params['track']}/#{value["id"]}", :method => "post", :role => "form"}
+      %textarea{:name => "kommentar", :style => "width: 90%;", :placeholder => "Skriv inn en kommentar"}
+      .form-group
+        %label.sr-only{:for => "navn"} Navn
+        %input#navn.form-control{:name => "navn", :placeholder => "Navn", :style => "display: inline-block; margin-bottom: 0px; vertical-align: middle; width: auto;"}
+        %button.btn.btn-default{:type => "submit"} Send

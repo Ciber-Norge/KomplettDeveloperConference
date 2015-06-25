@@ -1,0 +1,28 @@
+!!!
+%html
+  %head
+    %title Ciber Developer Update
+    = haml :"templates/header_imports"
+    -green = '#821CB4'
+    -purple = '#B3DB11'
+  %body
+    = haml :"templates/nav"
+    .container
+      Welcome to Ciber Developer Update 2015 Global Nordic Two-days Limited Spring Edition. Stay a while, and listen!
+      %br
+      %a{:href => "/track/Fredag", :class => "no-underline"}
+        %div{:class => "col-lg-12 big-btn", :style => "background: #{green}; color: #{purple};"}
+          Fredag
+      %a{:href => "/track/Lørdag", :class => "no-underline"}
+        %div{:class => "col-lg-12 big-btn", :style => "background: #{purple}; color: #{green};"}
+          Lørdag
+      %a{:href => "/track/now", :class => "no-underline"}
+        %div{:class => "col-lg-12 big-btn", :style => "background: #{green}; color: #{purple};"}
+          Just nu
+    /
+      %a{:href => "/cfp", :class => "no-underline"}
+        %div{:class => "col-lg-12 big-btn", :style => "background: #{purple}; color: #{green};"}
+          Call for Papers
+      %a{:href => "/cfp/suggestions", :class => "no-underline"}
+        %div{:class => "col-lg-12 big-btn", :style => "background: #{green}; color: #{purple};"}
+          See suggestions

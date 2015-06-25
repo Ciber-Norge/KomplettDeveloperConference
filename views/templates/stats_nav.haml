@@ -1,0 +1,16 @@
+.col-md-2
+  %a{:href => "/stats"}
+    Generelt
+.col-md-2
+  %a{:href => "/stats/comments"}
+    Kommentarer
+  %span.label.label-info
+    =get_comment_count
+.col-md-2
+  %a{:href => "/stats/presentation"}
+    Foredrag
+.col-md-2
+  %a{:href => "/stats/suggestions"}
+    Forslag
+  %span.label.label-info
+    =get_suggestion_count

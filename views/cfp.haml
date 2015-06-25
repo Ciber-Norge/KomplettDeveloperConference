@@ -1,0 +1,53 @@
+!!!
+%html
+  %head
+    %title Ciber Developer Update
+    = haml :"templates/header_imports"
+  %body
+    = haml :"templates/nav"
+    .container
+      %h3
+        Call for Papers
+      %p
+        CDU kicks off in a TBA! We are hoping for many great speaches! Of course, this depends on you. Call for Papers is open until Thursday, 30th of April and we encourage everyone to spend the time well and come up with something you can contribute with. Practice Managers and team leaders will also "remind" you, so that the message is not forgotten!
+        %br
+        Submit your speach in the form below.
+      %br
+      %form.form-horizontal{:method => "post", :role => "form"}
+        %fieldset
+          .control-group
+            %label.control-label{:for => "title"} Title
+            .controls
+              %input#tittel.input-xlarge{:name => "title", :placeholder => "Title", :required => "", :type => "text", :style => "width: 100%;"}
+          .control-group
+            %label.control-label{:for => "description"} Description
+            .controls
+              %textarea#beskrivelse{:name => "description", :placeholder => "Description", :required => "", :style => "width: 100%;", :rows => "4"}
+          .control-group
+            %label.control-label{:for => "format"} Format
+            .controls
+              %select#format.input-xlarge{:name => "format", :style => "width: 100%;"}
+                %option{:value => "45 minute talk"} 45 minute talk
+                %option{:value => "10 lightning talk"} 10 lightning talk
+                %option{:value => "workshop"} Workshop
+                %option{:value => "other"} Other
+          .control-group
+            %label.control-label{:for => "track"} Track
+            .controls
+              %select#selectbasic.input-xlarge{:name => "track", :style => "width: 100%;"}
+                %option{:value => "all"} For All
+                %option{:value => "java"} Java
+                %option{:value => "net"} .NET
+                %option{:value => "ux"} UX
+                %option{:value => "other"} Other
+          .control-group
+            %label.control-label{:for => "responsible"} Responsible
+            .controls
+              %input#tittel.input-xlarge{:name => "responsible", :placeholder => "Responsible", :required => "", :type => "text", :style => "width: 100%;"}
+          .control-group
+            %label.control-label{:for => "submit"}
+            .controls
+              %button#submit.btn.btn-default{:name => "submit"} Submit
+              %button#cancel.btn.btn-default{:name => "clear", :type => "reset"} clear
+          .control-group
+      %br

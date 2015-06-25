@@ -1,0 +1,24 @@
+!!!
+%html
+  %head
+    %title Ciber Developer Update
+    = haml :"templates/header_imports"
+    -green = '#821CB4'
+    -purple = '#B3DB11'
+  %body
+    = haml :"templates/nav"
+    .container
+      .row
+        = haml :"templates/stats_nav"
+      .row
+        Gjennomsnitt per foredrag:
+        - data = {}
+        - get_data.keys.each do | id |
+          - data[get_spot_name(id)] = get_average_of_ratings_for(id)
+        = column_chart(data, max: 6)
+        %br
+        Antall stemmer per foredrag
+        - data = {}
+        - get_data.keys.each do | id |
+          - data[get_spot_name(id)] = get_number_of_ratings_for(id)
+        = column_chart(data)
