@@ -17,13 +17,12 @@ require_relative 'lib/TrackHandler.rb'
 
 #Global variables
 $tracksStorage = nil
-$tracksId = "c2f1cd33f59799c8173f441c749f05f3"
-$commentsStorage = nil
-$commentsId = "eeab19cf5f204425dc997eae6b5a687d"
+$tracksId = "877e3a6c8cdfd454eeb2687a60980dac"
 $suggestionsStorage = nil
-$suggestionsId = "eb9d723dccf29016e142ce4b5db1c604"
+$suggestionsId = "cdca417b7d0ed043c8c3681f23b3686e"
 $dataStorage = nil
-$dataId = "eeab19cf5f204425dc997eae6b7a574b"
+$commentsStorage = nil
+$dataId = "cdca417b7d0ed043c8c3681f23bc330f"
 
 use Rack::Session::Cookie, :secret => 'super_secret_key_that_should_be_set_in_a_env_variable'
 

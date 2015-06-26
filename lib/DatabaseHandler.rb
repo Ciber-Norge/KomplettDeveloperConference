@@ -1,7 +1,7 @@
-$EVENT_URL = "cdu2015spring"
+$EVENT_URL = "kdc2015fall"
 
 def save_comments
-  jdata = JSON.parse(RestClient.get("#{CLOUDANT_URL}/#{$EVENT_URL}/#{$commentsId}"))
+  jdata = JSON.parse(RestClient.get("#{CLOUDANT_URL}/#{$EVENT_URL}/#{$dataId}"))
   jdata["comments"] = get_comments
   save_to_cloudant(jdata.to_json)
 end
@@ -43,7 +43,7 @@ def load_suggestions
 end
 
 def load_comments
-  $commentsStorage = JSON.parse(RestClient.get("#{CLOUDANT_URL}/#{$EVENT_URL}/#{$commentsId}"))["comments"]
+  $commentsStorage = JSON.parse(RestClient.get("#{CLOUDANT_URL}/#{$EVENT_URL}/#{$dataId}"))["comments"]
 end
 
 def load_data
