@@ -1,13 +1,13 @@
 !!!
 %html
   %head
-    %title Ciber Developer Update
+    %title Komplett Developer Conference
     = haml :"templates/header_imports"
   %body
     = haml :"templates/nav"
     .container
       %h3
-        Suggestion for CDU 2015 Spring Edition
+        Suggestion for KDC 2015 Fall Edition
       .row
         - get_suggestions.each do | key, suggestion |
           =haml :"templates/suggestion", :locals => {:key => key, :value => suggestion, :delete => false}

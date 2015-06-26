@@ -1,7 +1,7 @@
 !!!
 %html
   %head
-    %title Ciber Developer Update
+    %title Komplett Developer Conference
     = haml :"templates/header_imports"
   %body
     = haml :"templates/nav"
@@ -9,7 +9,7 @@
       %h3
         Call for Papers
       %p
-        CDU kicks off in a TBA! We are hoping for many great speaches! Of course, this depends on you. Call for Papers is open until Thursday, 30th of April and we encourage everyone to spend the time well and come up with something you can contribute with. Practice Managers and team leaders will also "remind" you, so that the message is not forgotten!
+        Are you ready for Komplett Developer Conference?! This fall, KDC kicks off the 18th of September, be there or be square! Call for Papers deadline is 10th of August.
         %br
         Submit your speach in the form below.
       %br
@@ -27,23 +27,24 @@
             %label.control-label{:for => "format"} Format
             .controls
               %select#format.input-xlarge{:name => "format", :style => "width: 100%;"}
-                %option{:value => "45 minute talk"} 45 minute talk
-                %option{:value => "10 lightning talk"} 10 lightning talk
-                %option{:value => "workshop"} Workshop
-                %option{:value => "other"} Other
+                %option{:value => "45"} 45 minute talk
+                %option{:value => "30"} 30 minute talk
+                %option{:value => "15"} 15 lightning talk
           .control-group
             %label.control-label{:for => "track"} Track
             .controls
               %select#selectbasic.input-xlarge{:name => "track", :style => "width: 100%;"}
-                %option{:value => "all"} For All
-                %option{:value => "java"} Java
-                %option{:value => "net"} .NET
-                %option{:value => "ux"} UX
-                %option{:value => "other"} Other
+                %option{:value => "business"} Business / Requirement Specification
+                %option{:value => "process"} Process
+                %option{:value => "qa"} QA / Testing
+                %option{:value => "front-end"} Front-end Development
+                %option{:value => "back-end"} Back-end Development
+                %option{:value => "architecture"} Architecture
+                %option{:value => "devops"} DevOps
           .control-group
-            %label.control-label{:for => "responsible"} Responsible
+            %label.control-label{:for => "speaker"} Speaker
             .controls
-              %input#tittel.input-xlarge{:name => "responsible", :placeholder => "Responsible", :required => "", :type => "text", :style => "width: 100%;"}
+              %input#tittel.input-xlarge{:name => "speaker", :placeholder => "Speaker", :required => "", :type => "text", :style => "width: 100%;"}
           .control-group
             %label.control-label{:for => "submit"}
             .controls
