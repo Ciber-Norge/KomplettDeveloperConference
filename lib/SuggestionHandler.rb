@@ -1,11 +1,11 @@
-def save_suggestion(title, description, format, track, responsible)
+def save_suggestion(title, description, format, track, speaker)
   id = SecureRandom.hex(2)
   get_suggestions[id] = {
     'title' => title,
     'description' => description,
     'format' => format,
     'track' => track,
-    'responsible' => responsible
+    'speaker' => speaker
   }
   save_suggestions
 end

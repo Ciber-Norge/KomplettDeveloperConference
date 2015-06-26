@@ -1,4 +1,4 @@
-$EVENT_URL = "kdc2015fall"
+$EVENT_URL = "kdc"
 
 def save_comments
   jdata = JSON.parse(RestClient.get("#{CLOUDANT_URL}/#{$EVENT_URL}/#{$dataId}"))

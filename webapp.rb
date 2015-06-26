@@ -127,11 +127,11 @@ get '/cfp' do
 end
 
 post '/cfp' do
-  if params['title'] == "" || params['description'] == "" || params['responsible'] == "" then
+  if params['title'] == "" || params['description'] == "" || params['speaker'] == "" then
     redirect '/cfp'
   end
 
-  save_suggestion params['title'], params['description'], params['format'], params['track'], params['responsible']
+  save_suggestion params['title'], params['description'], params['format'], params['track'], params['speaker']
   haml :thankyou
 end
 
