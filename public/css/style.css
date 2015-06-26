@@ -1,7 +1,7 @@
 .navbar-default {
-	background-color: #512D8F;
+	background-color: #f7b912;
 	background-image: none;
-	border-color: #512D8F;
+	border-color: #f7b912;
 	border-radius: 0px
 }
 .navbar-default .navbar-brand {
@@ -9,7 +9,7 @@
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-	color: #B3DB11
+	color: #1f1949
 }
 .navbar-default .navbar-toggle {
 	border-color: #FFFFFF;
@@ -17,14 +17,14 @@
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-	background-color: #821CB4
+	background-color: #1f1949
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #ffffff
 }
 .navbar-default .navbar-nav > li > a {
 	background-image: none;
-	background-color: #512D8F;
+	background-color: #f7b912;
 	color: #FFFFFF
 }
 .navbar-default .navbar-nav > .active > a {
@@ -36,7 +36,7 @@
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #B3DB11;
+	color: #1f1949;
 	background-color: transparent
 }
 .big-btn {
@@ -78,11 +78,11 @@ a:active.no-underline {
 	font-style: italic
 }
 .comment {
-	border-left: 5px solid #B3DB11;
+	border-left: 5px solid #1f1949;
 	padding-left: 5px;
 }
 .suggestion {
-	border-left: 5px solid #B3DB11;
+	border-left: 5px solid #1f1949;
 	padding-left: 5px;
 	padding-right: 5px;
 }
