@@ -9,6 +9,13 @@
     = haml :"templates/nav"
     .container
       Welcome to Komplett Developer Conference 2015 Fall Edition. Look, a three-headed monkey!
+      %a{:href => "/track/Thursday", :class => "no-underline"}
+        %div{:class => "col-lg-12 big-btn", :style => "background: #{green}; color: #{purple};"}
+          Thursday
+      %a{:href => "/track/Friday", :class => "no-underline"}
+        %div{:class => "col-lg-12 big-btn", :style => "background: #{purple}; color: #{green};"}
+          Friday
+    /
       %br
       %a{:href => "/cfp", :class => "no-underline"}
         %div{:class => "col-lg-12 big-btn", :style => "background: #{purple}; color: #{green};"}
@@ -16,13 +23,3 @@
       %a{:href => "/cfp/suggestions", :class => "no-underline"}
         %div{:class => "col-lg-12 big-btn", :style => "background: #{green}; color: #{purple};"}
           See suggestions
-    /
-      %a{:href => "/track/Fredag", :class => "no-underline"}
-        %div{:class => "col-lg-12 big-btn", :style => "background: #{green}; color: #{purple};"}
-          Fredag
-      %a{:href => "/track/Lørdag", :class => "no-underline"}
-        %div{:class => "col-lg-12 big-btn", :style => "background: #{purple}; color: #{green};"}
-          Lørdag
-      %a{:href => "/track/now", :class => "no-underline"}
-        %div{:class => "col-lg-12 big-btn", :style => "background: #{green}; color: #{purple};"}
-          Just nu
