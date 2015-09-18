@@ -21,6 +21,7 @@ def inc_rating_with!(rating, id)
   
   get_item_with!(id)["rating_count"] += 1
   get_item_with!(id)["rating"] << rating.to_f
+  save_data
 end
 
 def init_rating_for!(id)
